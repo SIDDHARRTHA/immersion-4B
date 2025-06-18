@@ -1,0 +1,58 @@
+/* style.css: Basic styling for Product Search */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+.error {
+    color: #d00;
+    font-size: 0.9em;
+    margin-left: 10px;
+    align-self: center;
+}
+#productList {
+    list-style: none;
+    padding: 0;
+}
+#productList li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+#productList li:last-child {
+    border-bottom: none;
+}
